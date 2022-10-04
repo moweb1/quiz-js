@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script defer src="scripts/main.js"></script>
+        <title>Quiz</title>
+    </head>
+    <body>
+        <main>
+            <div class="heading">
+                <h1>Quiz</h1>
+            </div>
+            <div class="question-screen">
+                <div id="question" class= "question d-flex">
+                    <div class="p-2 flex-fill">
+                        <h2 id="question-text">Welcome to my quiz!</h2>
+                    </div>
+                </div>
+                <div class="answer-buttons-grid container-fluid">
+                    <div class="row">
+                        <div class="column-xs-6">
+                            <button class="answer-button hidden"></button>
+                        </div>
+                        <div class="column-xs-6">
+                            <button class="answer-button hidden"></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column-xs-6">
+                            <button class="answer-button hidden"></button>
+                        </div>
+                        <div class="column-xs-6">
+                            <button class="answer-button hidden"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-buttons d-flex">
+                    <div class="p-2 flex-fill">
+                        <button id="start-button" class="control-button start-button">Start quiz</button>
+                    </div>
+                    <div class="p-2 flex-fill">
+                        <button id="next-button" class="control-button next-button hidden">Next question</button>
+                    </div>
+                </div>
+                <div id="start-instruction">
+                    <p>Practice quiz for mental computations<br>Click the button above to begin</p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
